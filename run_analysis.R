@@ -76,5 +76,5 @@
  names(fdata) <- oldname 
  
 
- ## Write the "fdata" file in the working directory 
- write.table(fdata, file = "run_analysis.txt", row.name = FALSE) 
+ ## Finally write a Tidy data set in the working director in .txt file
+ write.table(fdata, file = "tidy.txt", row.name = FALSE) 
